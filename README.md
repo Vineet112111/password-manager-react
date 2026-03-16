@@ -1,12 +1,34 @@
-# React + Vite
+# 🔐 Password Manager (React + LocalStorage)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and secure Password Manager built using React.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Save passwords
+- Edit passwords
+- Delete passwords
+- Copy to clipboard
+- Show / hide password
+- Data stored in LocalStorage
+- Toast notifications
+- Unique ID using UUID
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- Tailwind CSS
+- React Toastify
+- UUID
+- LocalStorage
+
+## 📸 Screenshot
+
+<img width="1316" height="608" alt="image" src="https://github.com/user-attachments/assets/dccfa96c-be2e-4f2b-8774-160c73f22c1e" />
+
+
+## ▶️ How to run
+
+```bash
+npm install
+npm run dev
